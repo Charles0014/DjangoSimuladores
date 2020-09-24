@@ -1,0 +1,266 @@
+import sys
+import socket
+import errno
+from time import sleep
+import threading 
+import thread
+import re
+from datetime import *
+
+#~ from threading import Thread, Lock
+
+tempList = []
+
+#~ mutex = Lock()
+#~ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#~ s.connect(('192.168.2.201',8888))
+#~ t = Thread(target = parseThomson, args = (tempList,))
+
+old_len = 0
+
+thing = []
+
+text_file = open('temp-radar-teste.txt', "rU")
+lst = text_file.readlines()
+text_file.close()
+
+radardata 		= []
+mawsdata		= []
+digicoradata 	= []
+vtsdata 		= []
+cortexdata 		= []
+
+#~ Radar Shit
+print len(lst)
+for line in lst:
+    thing.append(line.replace("\n", "").split(','))
+
+#~ k[7] + ";" + k[5] + ";" + k[6] + ";"
+#~ DA            SA            GA
+
+for k in thing:
+#	DA = 
+#	if k[7] == "D":
+#		DA
+#~                0                    1                      2                        3                       4                        5                       6                        7                       8                           9                      10                   11                   12                   13                     14                    15                      16                      17     
+    msg = k[0] + ";" + "0" + ";" + k[16] + ";" + k[17] + ";" + k[18] + ";" + k[11] + ";" + k[10] + ";" + k[12] + ";" + "0000" + ";" + k[8] + ";" + k[9] + ";" + "1" + ";" + k[7] + ";" + k[5] + ";" + k[6] + ";" + k[13] + ";" + k[14] + ";" + k[15] + ";" + k[3] + ";" + k[0]
+    msg = re.sub(r"\s", "", msg)
+    msg += "\n"
+    radardata.append(msg)
+#~ Radar Shit
+
+#~ Maws Shit
+text_file = open('maws.bin', "rU")
+lst = text_file.readlines()
+text_file.close()
+
+print len(lst)
+for line in lst:
+    mawsdata.append(re.sub(r"\s+", ";", line) + "\n")
+
+#~ for k in thing:
+    #~ msg = k
+    #~ mawsdata.append(msg)
+#~ Maws Shit
+
+#~ Digicora Shit
+text_file = open('digicora.txt', "rU")
+lst = text_file.readlines()
+text_file.close()
+
+print len(lst)
+for line in lst:
+    digicoradata.append(re.sub(r"\s+", ";", line) + "\n")
+
+#~ for k in thing:
+    #~ msg = k
+    #~ digicoradata.append(msg)
+#~ Digicora Shit
+
+#~ VTS Shit
+text_file = open('vts.txt', "rU")
+lst = text_file.readlines()
+text_file.close()
+
+print len(lst)
+for line in lst:
+    msg = re.sub(r"\s+", ";", line)
+    vtsdata.append(msg.replace(",", ";") + "\n")
+
+#~ for k in thing:
+    #~ msg = k
+    #~ vtsdata.append(msg)
+#~ VTS Shit
+
+#~ Cortex Shit
+text_file = open('cortex.txt', "rU")
+lst = text_file.readlines()
+text_file.close()
+
+print len(lst)
+for line in lst:
+    cortexdata.append(re.sub(r"\s+", "", line.replace(",", ";")) + "\n")
+
+#~ for k in thing:
+    #~ msg = k
+    #~ cortexdata.append(msg)
+#~ Cortex Shit
+
+def mdtbchandler():
+	while 1:
+		cs = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		cs.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+		cs.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+		cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+		sleep(1)
+
+#~ <L|28102013|090758370|230000000|050500000|1|030105000|1|1|1>
+def mdthandler(clientsock,addr):
+    while 1:
+
+		today = datetime.now()
+		clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+		sleep(0.1)
+
+def radarhandler(clientsock,addr):
+    while 1:
+        sleep(2)
+        for t in radardata:
+            clientsock.send(t)
+            sleep(0.1)
+            #sleep(0.01)
+
+def mawshandler(clientsock,addr):
+    while 1:
+        for t in mawsdata:
+            clientsock.send(t)
+            sleep(0.5)
+
+def digicorahandler(clientsock,addr):
+    while 1:
+        for t in digicoradata:
+            clientsock.send(t)
+            sleep(0.5)
+
+def vtshandler(clientsock,addr):
+    while 1:
+        for t in vtsdata:
+            clientsock.send(t)
+            sleep(0.5)
+
+def cortexhandler(clientsock,addr):
+    while 1:
+        for t in cortexdata:
+            clientsock.send(t)
+            sleep(0.5)
+
+def mdt(serversock):
+	thread.start_new_thread(mdtbchandler, ())
+	while 1:
+		print 'waiting for connection...'
+		clientsock, addr = serversock.accept()
+		print '...connected from:', addr
+		thread.start_new_thread(mdthandler, (clientsock, addr))
+
+def radar(serversock):
+    while 1:
+        print 'waiting for connection...'
+        clientsock, addr = serversock.accept()
+        print '...connected from:', addr
+        thread.start_new_thread(radarhandler, (clientsock, addr))
+
+def maws(serversock):
+    while 1:
+        print 'waiting for connection...'
+        clientsock, addr = serversock.accept()
+        print '...connected from:', addr
+        thread.start_new_thread(mawshandler, (clientsock, addr))
+
+def digicora(serversock):
+    while 1:
+        print 'waiting for connection...'
+        clientsock, addr = serversock.accept()
+        print '...connected from:', addr
+        thread.start_new_thread(digicorahandler, (clientsock, addr))
+
+def vts(serversock):
+    while 1:
+        print 'waiting for connection...'
+        clientsock, addr = serversock.accept()
+        print '...connected from:', addr
+        thread.start_new_thread(vtshandler, (clientsock, addr))
+
+def cortex(serversock):
+    while 1:
+        print 'waiting for connection...'
+        clientsock, addr = serversock.accept()
+        print '...connected from:', addr
+        thread.start_new_thread(cortexhandler, (clientsock, addr))
+
+if __name__=='__main__':
+    BUFSIZ = 128
+
+    MDTHOST = '0.0.0.0'
+    MDTPORT = 5500
+    MDTADDR = (MDTHOST, MDTPORT)
+    MDTserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    MDTserversock.bind(MDTADDR)
+    MDTserversock.listen(2)
+    thread.start_new_thread(mdt, (MDTserversock,))
+
+    RADHOST = '0.0.0.0'
+    RADPORT = 5510
+    RADADDR = (RADHOST, RADPORT)
+    RADserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    RADserversock.bind(RADADDR)
+    RADserversock.listen(2)
+    thread.start_new_thread(radar, (RADserversock,))
+
+    MAWHOST = '0.0.0.0'
+    MAWPORT = 5520
+    MAWADDR = (MAWHOST, MAWPORT)
+    MAWserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    MAWserversock.bind(MAWADDR)
+    MAWserversock.listen(2)
+    thread.start_new_thread(maws, (MAWserversock,))
+
+    DIGHOST = '0.0.0.0'
+    DIGPORT = 5530
+    DIGADDR = (DIGHOST, DIGPORT)
+    DIGserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    DIGserversock.bind(DIGADDR)
+    DIGserversock.listen(2)
+    thread.start_new_thread(digicora, (DIGserversock,))
+
+    VTSHOST = '0.0.0.0'
+    VTSPORT = 5540
+    VTSADDR = (VTSHOST, VTSPORT)
+    VTSserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    VTSserversock.bind(VTSADDR)
+    VTSserversock.listen(2)
+    thread.start_new_thread(vts, (VTSserversock,))
+
+    CORHOST = '0.0.0.0'
+    CORPORT = 5550
+    CORADDR = (CORHOST, CORPORT)
+    CORserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    CORserversock.bind(CORADDR)
+    CORserversock.listen(2)
+    thread.start_new_thread(cortex, (CORserversock,))
+
+    while 1:
+        sleep(1)
+
+
+#~ def parseThomson(data):
+    #~ mutex.acquire()
+
+    #~ if(len(tempList) != old_len):
+        #~ try:
+            #~ print len(tempList)
+        #~ finally:
+            #~ print len(tempList)
+
+    #~ old_len = len(tempList)
+    
+    #~ mutex.release()

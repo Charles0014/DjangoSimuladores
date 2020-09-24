@@ -1,0 +1,8 @@
+balao;6000;balao
+maracati;6005;maracati
+maws;6006;maws
+atlas;6666;atlas
+adour;5555;adour
+thomson;8888;thomson
+torre;7777;torre
+cortex;3070;cortex

@@ -1,0 +1,2436 @@
+Unhandled exception in thread started by <function mdtbchandler at 0x5d20578>
+15590
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+waiting for connection...
+waiting for connection...
+waiting for connection...
+ waiting for connection...
+...connected from: ('192.168.4.82', 59257)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 60179)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 60265)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 60832)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 61154)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 61868)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 62266)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 62755)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 62923)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 63539)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 63772)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 63870)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 64184)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 65264)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 65425)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x5d20668>
+...connected from: ('192.168.4.82', 49369)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 113] No route to host
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 213, in <module>
+    RADserversock.bind(RADADDR)
+  File "<string>", line 1, in bind
+socketUnhandled exception in thread started by <function mdtbchandler at 0x7f7cd10571b8>
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+.socket.errorerror: : [Errno 101] Network is unreachable[Errno 98] Address already in use
+
+Unhandled exception in thread started by <function mdtbchandler at 0x7fcb5baf91b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+
+waiting for connection...Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
+
+ waiting for connection...
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.82', 64519)
+waiting for connection...
+...connected from: ('192.168.4.97', 56564)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
+...connected from: ('192.168.4.82', 64620)
+waiting for connection...
+...connected from: ('192.168.4.10', 13395)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdthandler at 0x7fcb5bb9f410>
+...connected from: ('192.168.4.58', 61620)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 122, in mdthandler
+    clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
+...connected from: ('192.168.4.10', 13722)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 205, in <module>
+    MDTserversock.bind(MDTADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+Unhandled exception in thread started by <function mdtbchandler at 0x7f1c5f1521b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+waiting for connection...
+ 
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.10', 13955)
+waiting for connection...
+...connected from: ('192.168.4.82', 49178)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 49288)
+waiting for connection...
+...connected from: ('192.168.4.10', 14002)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 49485)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 49588)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.10', 15008)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.97', 49769)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.97', 49794)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+...connected from: ('192.168.4.97', 49810)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 122, in mdthandler
+    clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+...connected from: ('192.168.4.97', 49811)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 122, in mdthandler
+    clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.10', 15295)
+waiting for connection...
+...connected from: ('192.168.4.10', 15386)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+...connected from: ('192.168.4.10', 15442)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 122, in mdthandler
+    clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 32] Broken pipe
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.10', 16614)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 60754)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 61667)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62043)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62157)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62169)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62364)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62467)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62570)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62758)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 62962)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63157)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63172)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63277)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63385)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63578)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 63814)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 64065)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 64467)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 64496)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 64722)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 65003)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 65010)
+waiting for connection...
+...connected from: ('192.168.4.82', 65021)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 65269)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 49339)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 53105)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 53519)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 53633)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+...connected from: ('192.168.4.82', 53736)
+waiting for connection...
+...connected from: ('192.168.4.97', 53731)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7ff8edf251b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+waiting for connection...
+ waiting for connection...
+waiting for connection...
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 250, in <module>
+    sleep(1)
+KeyboardInterrupt
+Unhandled exception in thread started by <function mdtbchandler at 0x7f2f0a77f1b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7f2f0a82f488>
+waiting for connection...
+waiting for connection...
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.97', 53793)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2f0a82f488>
+...connected from: ('192.168.4.82', 54379)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2f0a82f488>
+...connected from: ('192.168.4.82', 54492)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7f614e51f1b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+waiting for connection...waiting for connection...
+
+
+waiting for connection...
+ waiting for connection...
+...connected from: ('192.168.4.97', 53808)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 54578)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 56918)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 61380)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 61796)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 61820)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 62346)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 63259)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 64116)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 64688)
+waiting for connection...
+...connected from: ('192.168.4.82', 49288)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 49625)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 49655)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 50407)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 51727)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
+...connected from: ('192.168.4.82', 52222)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7f2aa92611b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+ waiting for connection...
+waiting for connection...Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+
+
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.82', 53283)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 50245)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 50347)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 50647)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 50841)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 51304)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 51694)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 51893)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 52094)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 52120)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 52711)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 53123)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 55460)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 56356)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 56559)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 56757)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 56947)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 56969)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57070)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57357)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57557)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57755)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57768)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57781)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 57798)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 58004)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 58702)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 59187)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 59387)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 59422)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 59523)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 59812)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60187)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60200)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60215)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60404)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60427)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60438)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60636)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 60924)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61025)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61039)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61243)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61258)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61459)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
+...connected from: ('192.168.4.62', 61473)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7f26b68801b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+ Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7f26b6931488>
+waiting for connection...waiting for connection...
+ waiting for connection...
+
+waiting for connection...
+...connected from: ('192.168.4.62', 61786)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7fe037cda1b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+ 
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+waiting for connection...
+waiting for connection...
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.62', 61889)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62227)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62514)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62985)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 63420)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 63803)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 63827)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 64048)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 64434)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 64818)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 65046)
+waiting for connection...
+...connected from: ('192.168.4.62', 49232)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 49837)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50041)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50240)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 113] No route to host
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50076)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50651)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51037)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51232)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51430)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51635)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50281)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50310)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50697)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50893)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51282)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51669)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52068)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52622)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52714)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53125)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53142)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53434)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53639)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54192)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54210)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54583)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54862)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 55361)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 55553)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56510)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56795)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56996)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 57459)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 57843)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 57857)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 58467)
+waiting for connection...
+...connected from: ('192.168.4.97', 65156)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 58683)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 58697)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 58889)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59090)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59292)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59486)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59586)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59690)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59708)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59898)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59999)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60106)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60297)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60492)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60886)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 61894)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 61906)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62311)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50223)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50238)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 50811)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51220)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51236)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51426)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51451)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51660)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51679)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 51881)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52084)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52458)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 52706)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53096)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53233)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53302)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53316)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53716)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53833)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 53935)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54051)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54152)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54175)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54191)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54388)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54401)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 54512)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 55199)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 55597)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 55816)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56390)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56598)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56700)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56808)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56825)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56840)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 56854)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 57060)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17088)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 57869)
+waiting for connection...
+...connected from: ('192.168.4.50', 17098)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17118)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17164)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17180)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17192)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17215)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.81', 58448)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17581)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17681)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17719)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17732)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17749)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59216)
+waiting for connection...
+...connected from: ('192.168.4.50', 17765)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59229)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17788)
+waiting for connection...
+...connected from: ('192.168.4.62', 59252)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17800)
+waiting for connection...
+...connected from: ('192.168.4.62', 59355)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17817)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17830)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17843)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17859)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59636)
+waiting for connection...
+...connected from: ('192.168.4.50', 17873)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17887)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59649)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17904)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 59839)
+waiting for connection...
+...connected from: ('192.168.4.50', 17919)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17930)
+waiting for connection...
+...connected from: ('192.168.4.62', 59854)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17943)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17959)
+waiting for connection...
+...connected from: ('192.168.4.62', 60061)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17971)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17988)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 17999)
+waiting for connection...
+...connected from: ('192.168.4.62', 60251)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18015)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18028)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18043)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18069)
+waiting for connection...
+...connected from: ('192.168.4.62', 60363)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60475)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18157)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60897)
+waiting for connection...
+...connected from: ('192.168.4.50', 18169)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 60911)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.50', 18193)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 61290)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 61483)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 61679)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62058)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62251)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62447)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 62996)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 63191)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
+...connected from: ('192.168.4.62', 63474)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 213, in <module>
+    RADserversock.bind(RADADDR)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
+waiting for connection...6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 213, in <module>
+    RADserversock.bind(RADADDR)
+Unhandled exception in thread started by <function mdtbchandler at 0x7f19da9361b8>  File "<string>", line 1, in bind
+
+waiting for connection...
+Traceback (most recent call last):
+socket  File "emulator_tabajara.py", line 114, in mdtbchandler
+.    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+errorsocket: [Errno 98] Address already in use.error
+: close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+6876
+5217
+4367
+15
+1037
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 213, in <module>
+    RADserversock.bind(RADADDR)
+  File "<string>", line 1, in bind
+Unhandled exception in thread started by <function mdtbchandler at 0x7ff7cce5d1b8>socket
+waiting for connection...
+Traceback (most recent call last):
+.error  File "emulator_tabajara.py", line 114, in mdtbchandler
+:     [Errno 98] Address already in usecs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+
+socketclose failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+Unhandled exception in thread started by <function mdtbchandler at 0x7f5dde8f71b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...waiting for connection...
+
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function mdtbchandler at 0x7fefe27f61b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+waiting for connection...
+waiting for connection...
+waiting for connection...
+
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7fefe28a7488>
+waiting for connection...
+...connected from: ('192.168.4.62', 63967)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdtbchandler at 0x7fad856e11b8>
+6876
+5217
+4367
+15
+1037
+waiting for connection...
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 114, in mdtbchandler
+    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket.error: [Errno 101] Network is unreachable
+Unhandled exception in thread started by <function radarhandler at 0x7fad85792488>
+waiting for connection...
+waiting for connection...
+waiting for connection...
+waiting for connection...
+...connected from: ('192.168.4.62', 64084)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 113] No route to host
+Unhandled exception in thread started by <function radarhandler at 0x7fad85792488>
+...connected from: ('192.168.4.62', 50788)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 128, in radarhandler
+    clientsock.send(t)
+socket.error: [Errno 104] Connection reset by peer
+Unhandled exception in thread started by <function mdthandler at 0x7fad85787410>
+...connected from: ('192.168.4.62', 52244)
+waiting for connection...
+Traceback (most recent call last):
+  File "emulator_tabajara.py", line 122, in mdthandler
+    clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
+socket.error: [Errno 104] Connection reset by peer

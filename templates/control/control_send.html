@@ -1,0 +1,273 @@
+<html>
+
+<head>
+  <title>CE</title>
+  <style type="text/css">
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background-color: white;
+      font: normal normal normal 16px/20px "HelveticaNeue", Helvetica, Arial,
+        sans-serif;
+      color: #222;
+    }
+
+    h1 {
+      padding: 30px 0 10px 0;
+      text-align: center;
+      color: #222;
+      font-size: 28px;
+    }
+
+    h2 {
+      padding: 20px 0 10px 0;
+      text-align: center;
+      color: #555;
+      font-size: 22px;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: underline;
+      color: #222;
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 0;
+    }
+
+    .stripe {
+      background: #edf5ff;
+    }
+
+    .rule {
+      background: #ddd;
+    }
+
+    .red-text {
+      color: #ff0000;
+    }
+
+    .green-text {
+      color: #00ff00;
+    }
+
+    .gray-text {
+      color: #999999;
+    }
+
+    .blue-text {
+      color: #0000ff;
+    }
+
+    .yellow-text {
+      color: #ffff00;
+    }
+
+    .orange-text {
+      color: #ff8800;
+    }
+
+    .short {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 350px;
+    }
+
+    .column {
+      min-width: 80px;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    #wrap {
+      min-height: 100%;
+    }
+
+    #main {
+      overflow: auto;
+      padding-bottom: 50px;
+    }
+
+    /*Opera Fix*/
+    body:before {
+      content: "";
+      height: 100%;
+      float: left;
+      width: 0;
+      margin-top: -32767px;
+    }
+
+    #footer {
+      position: relative;
+      margin-top: -50px;
+      height: 50px;
+      clear: both;
+      font-size: 11px;
+      color: #777;
+      text-align: center;
+    }
+
+    #footer a {
+      color: #333;
+    }
+
+    #footer a:hover {
+      text-decoration: none;
+    }
+
+    #nav {
+      background: #ddd;
+      font: normal normal normal 14px/0px "HelveticaNeue", Helvetica;
+    }
+
+    #nav td {
+      padding: 5px 10px;
+    }
+
+    #header {
+      margin-bottom: 30px;
+      background: #eff7ff;
+    }
+
+    #nav,
+    #header {
+      border-bottom: 1px solid #ccc;
+    }
+
+    #header-row {
+      width: 95%;
+    }
+
+    #header-row th {
+      padding: 30px 10px 10px 10px;
+      font-size: 120%;
+    }
+
+    #header-row td {
+      padding: 3px 10px;
+    }
+
+    #header-row .first {
+      min-width: 200px;
+      width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #status-table {
+      width: 95%;
+    }
+
+    #status-table th {
+      text-align: left;
+      background: #edf5ff;
+      font-weight: normal;
+    }
+
+    #status-table th,
+    #status-table td,
+    #status-table tr {
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    #buttons {
+      font-size: 20px;
+      margin: 40px 0 20px 0;
+    }
+
+    #buttons td {
+      padding-right: 50px;
+    }
+
+    #buttons input {
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    #header-row tr {
+      border-bottom: 1px solid rgb(221, 218, 218);
+    }
+  </style>
+  <meta http-equiv="REFRESH" content="2" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body cz-shortcut-listen="true">
+  <div id="wrap">
+    <div id="main">
+      <center>
+        <table id="header" width="100%">
+          <tbody>
+            <tr>
+              <td colspan="2" valign="top" class="left" width="100%">
+                <h1>Emulator Control Manager</h1>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table id="header-row">
+          <thead>
+            <tr>
+              <th class="left">Emulador</th>
+              <th class="left">Port</th>
+              <th class="left">Status</th>
+              <th class="left">Pid</th>
+              <th class="center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for key, emulator in e.items %}
+            <tr id="tr-list">
+              <td class="left">{{key}}</td>
+              <td class="left">{{emulator.port}}</td>
+              {% if emulator.status == "Running" %}
+              <td id="status" class="left" style="color: green;">{{emulator.status}}</td>
+              {%else%}
+              <td id="status" class="left">{{emulator.status}}</td>
+              {%endif%}
+              <td class="left">{{emulator.pid}}</td>
+              <td class="center" style="padding-top: 15px">
+                <form id="form" method="POST">
+                  {% csrf_token %}
+                  {% if emulator.status != "Running" %}
+                  <button id="start"  class="button8" name="control_send_start_{{key}}"   style="color: rgb(104, 187, 104); width: 60px">Start</button>  
+                  {%else%}
+                  <button id="stop"    class="button8" name="control_send_stop_{{key}}"    style="color: rgb(228, 80, 80); width: 60px">Stop</button>
+                  {%endif%}
+                </form>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </center>
+    </div>
+  </div>
+</body>
+ 
+</html> 
