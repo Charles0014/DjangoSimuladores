@@ -45,16 +45,16 @@ for k in thing:
     radardata.append(msg)
 #~ Radar Shit
 
-def mdtbchandler():
+def emulbchandler():
 	while 1:
 		cs = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 		cs.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		cs.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-		cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+		cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 		sleep(1)
 
 #~ <L|28102013|090758370|230000000|050500000|1|030105000|1|1|1>
-def mdthandler(clientsock,addr):
+def emulhandler(clientsock,addr):
     while 1:
 
 		today = datetime.now()
@@ -71,13 +71,13 @@ def radarhandler(clientsock,addr):
           sleep(0.001)
 
 
-def mdt(serversock):
-	thread.start_new_thread(mdtbchandler, ())
+def emul(serversock):
+	thread.start_new_thread(emulbchandler, ())
 	while 1:
 		print 'waiting for connection... port 5555'
 		clientsock, addr = serversock.accept()
 		print '...connected from:', addr
-		thread.start_new_thread(mdthandler, (clientsock, addr))
+		thread.start_new_thread(emulhandler, (clientsock, addr))
 
 def radar(serversock):
         print 'waiting for connection...'

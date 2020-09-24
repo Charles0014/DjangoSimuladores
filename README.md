@@ -2,7 +2,7 @@
 
  O sistema que foi escrito em python e tem como objetivo facilitar o uso dos simuladores do sistemas para teste no SITDR.  
 
- Foram aproveitados as configurações e estrutura do MDT, dessa forma para executar o projeto devem seguir os passos: 
+ Foram aproveitados as configurações e estrutura do emul, dessa forma para executar o projeto devem seguir os passos: 
 
 Execute a instalação do django na versão 1.4.5 
 install-django1.4.5.sh

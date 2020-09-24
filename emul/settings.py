@@ -1,5 +1,5 @@
 """
-Django settings for mdt project.
+Django settings for emul project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'mdt.urls'
+ROOT_URLCONF = 'emul.urls'
 
-WSGI_APPLICATION = 'mdt.wsgi.application'
+WSGI_APPLICATION = 'emul.wsgi.application'
 
 
 # Database

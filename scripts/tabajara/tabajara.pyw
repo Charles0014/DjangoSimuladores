@@ -106,16 +106,16 @@ for line in lst:
     #~ cortexdata.append(msg)
 #~ Cortex Shit
 
-def mdtbchandler():
+def emulbchandler():
 	while 1:
 		cs = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 		cs.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		cs.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-		cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+		cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 		sleep(1)
 
 #~ <L|28102013|090758370|230000000|050500000|1|030105000|1|1|1>
-def mdthandler(clientsock,addr):
+def emulhandler(clientsock,addr):
     while 1:
 
 		today = datetime.now()
@@ -154,13 +154,13 @@ def cortexhandler(clientsock,addr):
             clientsock.send(t)
             sleep(0.5)
 
-def mdt(serversock):
-	thread.start_new_thread(mdtbchandler, ())
+def emul(serversock):
+	thread.start_new_thread(emulbchandler, ())
 	while 1:
 		print 'waiting for connection...'
 		clientsock, addr = serversock.accept()
 		print '...connected from:', addr
-		thread.start_new_thread(mdthandler, (clientsock, addr))
+		thread.start_new_thread(emulhandler, (clientsock, addr))
 
 def radar(serversock):
     while 1:
@@ -200,13 +200,13 @@ def cortex(serversock):
 if __name__=='__main__':
     BUFSIZ = 128
 
-    MDTHOST = '0.0.0.0'
-    MDTPORT = 5500
-    MDTADDR = (MDTHOST, MDTPORT)
-    MDTserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    MDTserversock.bind(MDTADDR)
-    MDTserversock.listen(2)
-    thread.start_new_thread(mdt, (MDTserversock,))
+    emulHOST = '0.0.0.0'
+    emulPORT = 5500
+    emulADDR = (emulHOST, emulPORT)
+    emulserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    emulserversock.bind(emulADDR)
+    emulserversock.listen(2)
+    thread.start_new_thread(emul, (emulserversock,))
 
     RADHOST = '0.0.0.0'
     RADPORT = 5510

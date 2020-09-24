@@ -1,4 +1,4 @@
-Unhandled exception in thread started by <function mdtbchandler at 0x5d20578>
+Unhandled exception in thread started by <function emulbchandler at 0x5d20578>
 15590
 5217
 4367
@@ -7,8 +7,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x5d20578>
 waiting for connection...
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x5d20668>
 waiting for connection...
@@ -135,14 +135,14 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 213, in <module>
     RADserversock.bind(RADADDR)
   File "<string>", line 1, in bind
-socketUnhandled exception in thread started by <function mdtbchandler at 0x7f7cd10571b8>
+socketUnhandled exception in thread started by <function emulbchandler at 0x7f7cd10571b8>
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 .socket.errorerror: : [Errno 101] Network is unreachable[Errno 98] Address already in use
 
-Unhandled exception in thread started by <function mdtbchandler at 0x7fcb5baf91b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7fcb5baf91b8>
 6876
 5217
 4367
@@ -151,8 +151,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7fcb5baf91b
 waiting for connection...waiting for connection...
 
 waiting for connection...Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
 
@@ -181,11 +181,11 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdthandler at 0x7fcb5bb9f410>
+Unhandled exception in thread started by <function emulhandler at 0x7fcb5bb9f410>
 ...connected from: ('192.168.4.58', 61620)
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 122, in mdthandler
+  File "emulator_tabajara.py", line 122, in emulhandler
     clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
 socket.error: [Errno 104] Connection reset by peer
 Unhandled exception in thread started by <function radarhandler at 0x7fcb5bba9488>
@@ -207,7 +207,7 @@ socket.error: [Errno 104] Connection reset by peer
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -217,7 +217,7 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -227,7 +227,7 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -237,7 +237,7 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -247,7 +247,7 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -257,7 +257,7 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
 6876
@@ -267,10 +267,10 @@ socket.error: [Errno 98] Address already in use
 1037
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 205, in <module>
-    MDTserversock.bind(MDTADDR)
+    emulserversock.bind(emulADDR)
   File "<string>", line 1, in bind
 socket.error: [Errno 98] Address already in use
-Unhandled exception in thread started by <function mdtbchandler at 0x7f1c5f1521b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f1c5f1521b8>
 6876
 5217
 4367
@@ -281,8 +281,8 @@ waiting for connection...
  
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
 waiting for connection...
@@ -349,18 +349,18 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+Unhandled exception in thread started by <function emulhandler at 0x7f1c5f1f8410>
 ...connected from: ('192.168.4.97', 49810)
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 122, in mdthandler
+  File "emulator_tabajara.py", line 122, in emulhandler
     clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+Unhandled exception in thread started by <function emulhandler at 0x7f1c5f1f8410>
 ...connected from: ('192.168.4.97', 49811)
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 122, in mdthandler
+  File "emulator_tabajara.py", line 122, in emulhandler
     clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
 socket.error: [Errno 104] Connection reset by peer
 Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
@@ -372,11 +372,11 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdthandler at 0x7f1c5f1f8410>
+Unhandled exception in thread started by <function emulhandler at 0x7f1c5f1f8410>
 ...connected from: ('192.168.4.10', 15442)
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 122, in mdthandler
+  File "emulator_tabajara.py", line 122, in emulhandler
     clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
 socket.error: [Errno 104] Connection reset by peer
 Unhandled exception in thread started by <function radarhandler at 0x7f1c5f202488>
@@ -601,7 +601,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7ff8edf251b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7ff8edf251b8>
 6876
 5217
 4367
@@ -610,8 +610,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7ff8edf251b
 waiting for connection...
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 waiting for connection...
  waiting for connection...
@@ -621,7 +621,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 250, in <module>
     sleep(1)
 KeyboardInterrupt
-Unhandled exception in thread started by <function mdtbchandler at 0x7f2f0a77f1b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f2f0a77f1b8>
 6876
 5217
 4367
@@ -630,8 +630,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7f2f0a77f1b
 waiting for connection...
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7f2f0a82f488>
 waiting for connection...
@@ -658,7 +658,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7f614e51f1b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f614e51f1b8>
 6876
 5217
 4367
@@ -666,8 +666,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7f614e51f1b
 1037
 waiting for connection...waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7f614e5d0488>
 waiting for connection...waiting for connection...
@@ -786,7 +786,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7f2aa92611b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f2aa92611b8>
 6876
 5217
 4367
@@ -795,8 +795,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7f2aa92611b
 waiting for connection...waiting for connection...
  waiting for connection...
 waiting for connection...Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7f2aa9312488>
 
@@ -1124,7 +1124,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7f26b68801b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f26b68801b8>
 6876
 5217
 4367
@@ -1133,8 +1133,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7f26b68801b
 waiting for connection...
 waiting for connection...
  Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7f26b6931488>
 waiting for connection...waiting for connection...
@@ -1147,7 +1147,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7fe037cda1b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7fe037cda1b8>
 6876
 5217
 4367
@@ -1156,8 +1156,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7fe037cda1b
 waiting for connection...waiting for connection...
  
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7fe037d8b488>
 waiting for connection...
@@ -2331,12 +2331,12 @@ waiting for connection...6876
 Traceback (most recent call last):
   File "emulator_tabajara.py", line 213, in <module>
     RADserversock.bind(RADADDR)
-Unhandled exception in thread started by <function mdtbchandler at 0x7f19da9361b8>  File "<string>", line 1, in bind
+Unhandled exception in thread started by <function emulbchandler at 0x7f19da9361b8>  File "<string>", line 1, in bind
 
 waiting for connection...
 Traceback (most recent call last):
-socket  File "emulator_tabajara.py", line 114, in mdtbchandler
-.    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+socket  File "emulator_tabajara.py", line 114, in emulbchandler
+.    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 errorsocket: [Errno 98] Address already in use.error
 : close failed in file object destructor:
 Error in sys.excepthook:
@@ -2351,17 +2351,17 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 213, in <module>
     RADserversock.bind(RADADDR)
   File "<string>", line 1, in bind
-Unhandled exception in thread started by <function mdtbchandler at 0x7ff7cce5d1b8>socket
+Unhandled exception in thread started by <function emulbchandler at 0x7ff7cce5d1b8>socket
 waiting for connection...
 Traceback (most recent call last):
-.error  File "emulator_tabajara.py", line 114, in mdtbchandler
-:     [Errno 98] Address already in usecs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+.error  File "emulator_tabajara.py", line 114, in emulbchandler
+:     [Errno 98] Address already in usecs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 
 socketclose failed in file object destructor:
 Error in sys.excepthook:
 
 Original exception was:
-Unhandled exception in thread started by <function mdtbchandler at 0x7f5dde8f71b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7f5dde8f71b8>
 6876
 5217
 4367
@@ -2370,10 +2370,10 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7f5dde8f71b
 waiting for connection...waiting for connection...
 
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
-Unhandled exception in thread started by <function mdtbchandler at 0x7fefe27f61b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7fefe27f61b8>
 6876
 5217
 4367
@@ -2386,8 +2386,8 @@ waiting for connection...
 waiting for connection...
 
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7fefe28a7488>
 waiting for connection...
@@ -2397,7 +2397,7 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdtbchandler at 0x7fad856e11b8>
+Unhandled exception in thread started by <function emulbchandler at 0x7fad856e11b8>
 6876
 5217
 4367
@@ -2406,8 +2406,8 @@ Unhandled exception in thread started by <function mdtbchandler at 0x7fad856e11b
 waiting for connection...
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 114, in mdtbchandler
-    cs.sendto('<MDTE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
+  File "emulator_tabajara.py", line 114, in emulbchandler
+    cs.sendto('<emulE|201|400|UDP|192.168.2.201|5553>', ('255.255.255.255', 7777))
 socket.error: [Errno 101] Network is unreachable
 Unhandled exception in thread started by <function radarhandler at 0x7fad85792488>
 waiting for connection...
@@ -2427,10 +2427,10 @@ Traceback (most recent call last):
   File "emulator_tabajara.py", line 128, in radarhandler
     clientsock.send(t)
 socket.error: [Errno 104] Connection reset by peer
-Unhandled exception in thread started by <function mdthandler at 0x7fad85787410>
+Unhandled exception in thread started by <function emulhandler at 0x7fad85787410>
 ...connected from: ('192.168.4.62', 52244)
 waiting for connection...
 Traceback (most recent call last):
-  File "emulator_tabajara.py", line 122, in mdthandler
+  File "emulator_tabajara.py", line 122, in emulhandler
     clientsock.send("<L|" + today.strftime('%d%m%Y') + "|" + today.strftime('%H%M%S%f')[:-3] + "|230000000|050500000|1|030105000|1|1|1>")
 socket.error: [Errno 104] Connection reset by peer
